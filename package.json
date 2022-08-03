@@ -1,0 +1,9 @@
+{
+  "name": "wordpress-theme-json-generator",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "node scripts/generate-theme.json.mjs"
+  },
+  "author": "Ryo Sugimoto",
+  "license": "MIT"
+}
