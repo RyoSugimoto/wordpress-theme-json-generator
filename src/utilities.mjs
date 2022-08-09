@@ -5,5 +5,5 @@
  */
 export const getProp = (...names) => {
   const propName = names.join('--')
-  return `var(--wp-preset--${propName})`
+  return `var(--wp--custom--${propName})`
 }
