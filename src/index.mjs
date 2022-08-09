@@ -1,5 +1,5 @@
 import customTemplates from './custom-templates.mjs'
-import patterns from './settings.mjs'
+import patterns from './patterns.mjs'
 import settings from './settings.mjs'
 import styles from './styles.mjs'
 import templateParts from './template-parts.mjs'
