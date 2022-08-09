@@ -26,7 +26,7 @@ const run = data => {
 
 import(process.argv[2] || '../src/index.mjs')
 .then(data => {
-  run(data)
+  run(data.default)
 })
 .catch(error => {
   console.log(error.message)
